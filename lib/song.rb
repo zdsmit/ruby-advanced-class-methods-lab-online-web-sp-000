@@ -33,7 +33,7 @@ class Song
     Song.all.each do |song|
       if song.name == name
         return song
-      else
+      elsif Song.none.include?(name)
         return false
       end
     end
