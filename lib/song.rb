@@ -33,4 +33,7 @@ class Song
     Song.all.detect {|song|return song if song.name == name}
   end
 
+  def self.find_or_create_by_name(name)
+  end
+
 end
