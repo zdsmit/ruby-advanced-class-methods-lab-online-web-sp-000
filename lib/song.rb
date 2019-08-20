@@ -37,7 +37,7 @@ class Song
     self.find_by_name(name) or self.create_by_name(name)
   end
 
-  def alphabetical
+  def self.alphabetical
     empty_array = []
     @@all.each do |song|
       empty_array << song.name
