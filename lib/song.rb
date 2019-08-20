@@ -38,6 +38,7 @@ class Song
       song
     else
       create_by_name(name)
+    end
   end
 
 end
