@@ -46,6 +46,10 @@ class Song
     artist = new_song[0]
     new_song[1].delete(".mp3")
     song_name = new_song[1].delete(".mp3")
+    song = Song.new
+    song.name = song_name
+    song.artist_name = artist
+
   end
 
 end
