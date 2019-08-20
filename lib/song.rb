@@ -38,6 +38,11 @@ class Song
   end
 
   def alphabetical
+    empty_array = []
+    @@all.each do |song|
+      empty_array << song.name
+    end
+    empty_array.sort
   end
 
 end
