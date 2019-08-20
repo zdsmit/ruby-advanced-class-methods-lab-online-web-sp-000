@@ -8,7 +8,7 @@ class Song
   end
 
   def new_by_name(song_name)
-    
+
   end
 
   def self.all
